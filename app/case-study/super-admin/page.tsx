@@ -171,20 +171,14 @@ export default function SuperAdminCaseStudyPage() {
                     {sec.content}
                   </div>
 
-                  {/* Inline Elova interactive sandbox mock injected inside 'Key Screens' section */}
+                  {/* Jewellabel Super Admin Dashboard Mockup Image */}
                   {sec.id === "key-screens" && (
-                    <div className="mt-8 border border-[#ebe5d3] rounded-xl bg-canvas p-2 sm:p-4 shadow-lift">
-                      <div className="mb-3 flex items-center justify-between border-b border-[#ebe5d3] pb-2 px-1">
-                        <div className="flex gap-1.5">
-                          <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
-                          <span className="h-2.5 w-2.5 rounded-full bg-amber-400" />
-                          <span className="h-2.5 w-2.5 rounded-full bg-green-400" />
-                        </div>
-                        <span className="text-[10px] font-mono text-muted uppercase font-semibold">
-                          Interactive Elova Pricing Simulator Workspace
-                        </span>
-                      </div>
-                      <CaseStudyPreview slug="super-admin" />
+                    <div className="mt-8">
+                      <img
+                        src="/super-admin-mockup.png"
+                        alt="Jewellabel Super Admin Dashboard Mockup"
+                        className="w-full rounded-lg border border-[#ebe5d3] shadow-lift hover:shadow-float transition-shadow duration-300"
+                      />
                     </div>
                   )}
                 </Reveal>

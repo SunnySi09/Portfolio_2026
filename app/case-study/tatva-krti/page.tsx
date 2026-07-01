@@ -91,7 +91,7 @@ export default function TatvaKrtiCaseStudyPage() {
 
           {/* Project Metadata Grid */}
           <Reveal delay={100}>
-            <div className="mt-10 grid gap-6 sm:grid-cols-4 border-t border-hairline pt-8 text-xs">
+            <div className="mt-10 grid gap-6 grid-cols-2 sm:grid-cols-5 border-t border-hairline pt-8 text-xs">
               <div>
                 <span className="block font-bold uppercase tracking-wider text-muted mb-1.5">My Role</span>
                 <span className="text-[14px] font-semibold text-ink">Shopify UI/UX Designer</span>
@@ -109,6 +109,21 @@ export default function TatvaKrtiCaseStudyPage() {
                 <span className="text-[14px] font-semibold text-ink">E-commerce Operations</span>
                 <p className="text-[10px] text-muted-soft mt-1 leading-normal">
                   1 PM, 1 Designer, 1 FE Developer, 1 Digital Marketer.
+                </p>
+              </div>
+              <div>
+                <span className="block font-bold uppercase tracking-wider text-muted mb-1.5">Live Store</span>
+                <a
+                  href="https://tatvakrti.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-[14px] font-bold text-[#ff385c] hover:underline"
+                >
+                  <span>tatvakrti.com</span>
+                  <span className="text-[10px]">↗</span>
+                </a>
+                <p className="text-[10px] text-muted-soft mt-1 leading-normal">
+                  View the active Shopify store online.
                 </p>
               </div>
               <div>

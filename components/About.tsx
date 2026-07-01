@@ -10,14 +10,11 @@ export default function About() {
           <div className="relative mx-auto aspect-square w-full max-w-sm">
             <div className="absolute inset-0 rotate-3 rounded-xl bg-wash" />
             <div className="absolute inset-0 -rotate-2 overflow-hidden rounded-xl bg-ink">
-              <div className="flex h-full w-full flex-col items-center justify-center gap-3 text-center">
-                <span className="font-display text-[7rem] font-extrabold leading-none text-rausch">
-                  S
-                </span>
-                <span className="text-sm font-semibold uppercase tracking-[0.2em] text-white/70">
-                  add your photo here
-                </span>
-              </div>
+              <img
+                src="/profile-photo.jpeg"
+                alt="Sunny Singh Portrait"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
         </Reveal>
