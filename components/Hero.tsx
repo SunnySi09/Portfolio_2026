@@ -274,7 +274,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="top" ref={containerRef} className="relative overflow-hidden min-h-[480px] sm:min-h-[540px]">
+    <section id="top" ref={containerRef} className="relative overflow-hidden min-h-0 md:min-h-[540px]">
       <div className="shell relative z-10 pb-10 pt-16 sm:pt-24 pointer-events-none">
         
         {/* availability + location */}
@@ -319,7 +319,7 @@ export default function Hero() {
       </div>
 
       {/* Physics Simulated interactive tag element renderers */}
-      <div className="absolute inset-0 pointer-events-none z-0">
+      <div className="absolute inset-0 pointer-events-none z-0 hidden md:block">
         {tags.map((tag, idx) => (
           <div
             key={idx}
